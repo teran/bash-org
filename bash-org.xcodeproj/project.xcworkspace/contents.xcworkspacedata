@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:sampleapp.xcodeproj">
+      location = "self:/Users/teran/Documents/Development/git/AppleDev/bash-org/bash-org.xcodeproj">
    </FileRef>
 </Workspace>

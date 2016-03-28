@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3F00198FD7638102954E2D442697C31855C6A5BC" : 0,
+    "BC949C044609264A7DE78DBBB5DCDDF5E033DADA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "264EE6BD-2769-47FB-A969-9B33F145339F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3F00198FD7638102954E2D442697C31855C6A5BC" : "sampleapp\/Kanna\/",
+    "BC949C044609264A7DE78DBBB5DCDDF5E033DADA" : "sampleapp\/Just\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "sampleapp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "sampleapp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tid-kijyun\/Kanna.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3F00198FD7638102954E2D442697C31855C6A5BC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JustHTTP\/Just.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC949C044609264A7DE78DBBB5DCDDF5E033DADA"
+    }
+  ]
+}

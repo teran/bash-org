@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "079DE2CA1CA5EEB40046B785"
-               BuildableName = "sampleapp.app"
-               BlueprintName = "sampleapp"
-               ReferencedContainer = "container:sampleapp.xcodeproj">
+               BuildableName = "bash-org.app"
+               BlueprintName = "bash-org"
+               ReferencedContainer = "container:bash-org.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "079DE2DE1CA5EEB40046B785"
-               BuildableName = "sampleappTests.xctest"
-               BlueprintName = "sampleappTests"
-               ReferencedContainer = "container:sampleapp.xcodeproj">
+               BuildableName = "bash-org.xctest"
+               BlueprintName = "bash-orgTests"
+               ReferencedContainer = "container:bash-org.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "079DE2E91CA5EEB40046B785"
-               BuildableName = "sampleappUITests.xctest"
-               BlueprintName = "sampleappUITests"
-               ReferencedContainer = "container:sampleapp.xcodeproj">
+               BuildableName = "bash-org.xctest"
+               BlueprintName = "bash-orgUITests"
+               ReferencedContainer = "container:bash-org.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "079DE2CA1CA5EEB40046B785"
-            BuildableName = "sampleapp.app"
-            BlueprintName = "sampleapp"
-            ReferencedContainer = "container:sampleapp.xcodeproj">
+            BuildableName = "bash-org.app"
+            BlueprintName = "bash-org"
+            ReferencedContainer = "container:bash-org.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "079DE2CA1CA5EEB40046B785"
-            BuildableName = "sampleapp.app"
-            BlueprintName = "sampleapp"
-            ReferencedContainer = "container:sampleapp.xcodeproj">
+            BuildableName = "bash-org.app"
+            BlueprintName = "bash-org"
+            ReferencedContainer = "container:bash-org.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "079DE2CA1CA5EEB40046B785"
-            BuildableName = "sampleapp.app"
-            BlueprintName = "sampleapp"
-            ReferencedContainer = "container:sampleapp.xcodeproj">
+            BuildableName = "bash-org.app"
+            BlueprintName = "bash-org"
+            ReferencedContainer = "container:bash-org.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

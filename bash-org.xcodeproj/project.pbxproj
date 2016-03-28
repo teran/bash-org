@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075419471CA89AC5009FE26B /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0754193A1CA89ABF009FE26B /* Kanna.framework */; };
+		0754195F1CA8A038009FE26B /* Just.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075419541CA8A032009FE26B /* Just.framework */; };
+		077249711CA8B4CF002FDE6F /* Just.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075419541CA8A032009FE26B /* Just.framework */; };
+		077249721CA8B4CF002FDE6F /* Just.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 075419541CA8A032009FE26B /* Just.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		077249761CA8B4D5002FDE6F /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0754193A1CA89ABF009FE26B /* Kanna.framework */; };
+		077249771CA8B4D5002FDE6F /* Kanna.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0754193A1CA89ABF009FE26B /* Kanna.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		079DE2CF1CA5EEB40046B785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DE2CE1CA5EEB40046B785 /* AppDelegate.swift */; };
 		079DE2D11CA5EEB40046B785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DE2D01CA5EEB40046B785 /* ViewController.swift */; };
 		079DE2D41CA5EEB40046B785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079DE2D21CA5EEB40046B785 /* Main.storyboard */; };
@@ -17,6 +23,111 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		075419391CA89ABF009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754192F1CA89ABE009FE26B /* Kanna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1EAFA0D81B6039D5001F3D84;
+			remoteInfo = Kanna_iOS;
+		};
+		0754193B1CA89ABF009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754192F1CA89ABE009FE26B /* Kanna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1EBA8A6B1B6632E800226B9C;
+			remoteInfo = Kanna_OSX;
+		};
+		0754193D1CA89ABF009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754192F1CA89ABE009FE26B /* Kanna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1EC47DAB1BC9729F00647902;
+			remoteInfo = Kanna_tvOS;
+		};
+		0754193F1CA89ABF009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754192F1CA89ABE009FE26B /* Kanna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E4F86B51BD90AE1008EF835;
+			remoteInfo = Kanna_watchOS;
+		};
+		075419411CA89ABF009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754192F1CA89ABE009FE26B /* Kanna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1EAFA0E31B6039D5001F3D84;
+			remoteInfo = KannaTests;
+		};
+		075419431CA89ABF009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754192F1CA89ABE009FE26B /* Kanna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E206B841B665E6D00441E12;
+			remoteInfo = "Kanna_OSX Tests";
+		};
+		075419451CA89ABF009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754192F1CA89ABE009FE26B /* Kanna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1EC47DB41BC9729F00647902;
+			remoteInfo = "Kanna_tvOS Tests";
+		};
+		075419531CA8A032009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754194A1CA8A032009FE26B /* Just.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 948CA81D1AF3FF43001E0FD3;
+			remoteInfo = "Just-iOS";
+		};
+		075419551CA8A032009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754194A1CA8A032009FE26B /* Just.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 948CA8271AF3FF43001E0FD3;
+			remoteInfo = "Just-iOSTests";
+		};
+		075419571CA8A032009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754194A1CA8A032009FE26B /* Just.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 948CA83B1AF3FF55001E0FD3;
+			remoteInfo = "Just-OSX";
+		};
+		075419591CA8A032009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754194A1CA8A032009FE26B /* Just.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 948CA8451AF3FF55001E0FD3;
+			remoteInfo = "Just-OSXTests";
+		};
+		0754195B1CA8A032009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754194A1CA8A032009FE26B /* Just.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94F2DF821BD9F339004820D5;
+			remoteInfo = "Just-tvOS";
+		};
+		0754195D1CA8A032009FE26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754194A1CA8A032009FE26B /* Just.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94F2DF8B1BD9F339004820D5;
+			remoteInfo = "Just-tvOSTests";
+		};
+		077249731CA8B4CF002FDE6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754194A1CA8A032009FE26B /* Just.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 948CA81C1AF3FF43001E0FD3;
+			remoteInfo = "Just-iOS";
+		};
+		077249781CA8B4D5002FDE6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0754192F1CA89ABE009FE26B /* Kanna.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EAFA0D71B6039D5001F3D84;
+			remoteInfo = Kanna_iOS;
+		};
 		079DE2E01CA5EEB40046B785 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 079DE2C31CA5EEB30046B785 /* Project object */;
@@ -33,18 +144,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		077249751CA8B4CF002FDE6F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				077249771CA8B4D5002FDE6F /* Kanna.framework in Embed Frameworks */,
+				077249721CA8B4CF002FDE6F /* Just.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		079DE2CB1CA5EEB40046B785 /* sampleapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0754192F1CA89ABE009FE26B /* Kanna.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kanna.xcodeproj; path = Kanna/Kanna.xcodeproj; sourceTree = "<group>"; };
+		0754194A1CA8A032009FE26B /* Just.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Just.xcodeproj; path = Just/Just.xcodeproj; sourceTree = "<group>"; };
+		0772497A1CA8B630002FDE6F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		079DE2CB1CA5EEB40046B785 /* bash-org.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bash-org.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		079DE2CE1CA5EEB40046B785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		079DE2D01CA5EEB40046B785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		079DE2D31CA5EEB40046B785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		079DE2D51CA5EEB40046B785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		079DE2D81CA5EEB40046B785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		079DE2DA1CA5EEB40046B785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		079DE2DF1CA5EEB40046B785 /* sampleappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		079DE2DF1CA5EEB40046B785 /* bash-org.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bash-org.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		079DE2E31CA5EEB40046B785 /* sampleappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleappTests.swift; sourceTree = "<group>"; };
 		079DE2E51CA5EEB40046B785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		079DE2EA1CA5EEB40046B785 /* sampleappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		079DE2EA1CA5EEB40046B785 /* bash-org.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bash-org.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		079DE2EE1CA5EEB40046B785 /* sampleappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleappUITests.swift; sourceTree = "<group>"; };
 		079DE2F01CA5EEB40046B785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +183,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077249761CA8B4D5002FDE6F /* Kanna.framework in Frameworks */,
+				077249711CA8B4CF002FDE6F /* Just.framework in Frameworks */,
+				0754195F1CA8A038009FE26B /* Just.framework in Frameworks */,
+				075419471CA89AC5009FE26B /* Kanna.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,27 +207,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		075419301CA89ABE009FE26B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0754193A1CA89ABF009FE26B /* Kanna.framework */,
+				0754193C1CA89ABF009FE26B /* Kanna.framework */,
+				0754193E1CA89ABF009FE26B /* Kanna.framework */,
+				075419401CA89ABF009FE26B /* Kanna.framework */,
+				075419421CA89ABF009FE26B /* KannaTests.xctest */,
+				075419441CA89ABF009FE26B /* Kanna_OSX Tests.xctest */,
+				075419461CA89ABF009FE26B /* Kanna_tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0754194B1CA8A032009FE26B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075419541CA8A032009FE26B /* Just.framework */,
+				075419561CA8A032009FE26B /* Just-iOSTests.xctest */,
+				075419581CA8A032009FE26B /* Just.framework */,
+				0754195A1CA8A032009FE26B /* Just-OSXTests.xctest */,
+				0754195C1CA8A032009FE26B /* Just.framework */,
+				0754195E1CA8A032009FE26B /* Just-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		079DE2C21CA5EEB30046B785 = {
 			isa = PBXGroup;
 			children = (
-				079DE2CD1CA5EEB40046B785 /* sampleapp */,
-				079DE2E21CA5EEB40046B785 /* sampleappTests */,
-				079DE2ED1CA5EEB40046B785 /* sampleappUITests */,
+				0772497A1CA8B630002FDE6F /* Social.framework */,
+				079DE2CD1CA5EEB40046B785 /* bash-org */,
+				079DE2E21CA5EEB40046B785 /* bash-orgTests */,
+				079DE2ED1CA5EEB40046B785 /* bash-orgUITests */,
 				079DE2CC1CA5EEB40046B785 /* Products */,
+				0754194A1CA8A032009FE26B /* Just.xcodeproj */,
+				0754192F1CA89ABE009FE26B /* Kanna.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
 		079DE2CC1CA5EEB40046B785 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				079DE2CB1CA5EEB40046B785 /* sampleapp.app */,
-				079DE2DF1CA5EEB40046B785 /* sampleappTests.xctest */,
-				079DE2EA1CA5EEB40046B785 /* sampleappUITests.xctest */,
+				079DE2CB1CA5EEB40046B785 /* bash-org.app */,
+				079DE2DF1CA5EEB40046B785 /* bash-org.xctest */,
+				079DE2EA1CA5EEB40046B785 /* bash-org.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		079DE2CD1CA5EEB40046B785 /* sampleapp */ = {
+		079DE2CD1CA5EEB40046B785 /* bash-org */ = {
 			isa = PBXGroup;
 			children = (
 				079DE2CE1CA5EEB40046B785 /* AppDelegate.swift */,
@@ -104,50 +267,56 @@
 				079DE2D71CA5EEB40046B785 /* LaunchScreen.storyboard */,
 				079DE2DA1CA5EEB40046B785 /* Info.plist */,
 			);
+			name = "bash-org";
 			path = sampleapp;
 			sourceTree = "<group>";
 		};
-		079DE2E21CA5EEB40046B785 /* sampleappTests */ = {
+		079DE2E21CA5EEB40046B785 /* bash-orgTests */ = {
 			isa = PBXGroup;
 			children = (
 				079DE2E31CA5EEB40046B785 /* sampleappTests.swift */,
 				079DE2E51CA5EEB40046B785 /* Info.plist */,
 			);
+			name = "bash-orgTests";
 			path = sampleappTests;
 			sourceTree = "<group>";
 		};
-		079DE2ED1CA5EEB40046B785 /* sampleappUITests */ = {
+		079DE2ED1CA5EEB40046B785 /* bash-orgUITests */ = {
 			isa = PBXGroup;
 			children = (
 				079DE2EE1CA5EEB40046B785 /* sampleappUITests.swift */,
 				079DE2F01CA5EEB40046B785 /* Info.plist */,
 			);
+			name = "bash-orgUITests";
 			path = sampleappUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		079DE2CA1CA5EEB40046B785 /* sampleapp */ = {
+		079DE2CA1CA5EEB40046B785 /* bash-org */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 079DE2F31CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "sampleapp" */;
+			buildConfigurationList = 079DE2F31CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "bash-org" */;
 			buildPhases = (
 				079DE2C71CA5EEB40046B785 /* Sources */,
 				079DE2C81CA5EEB40046B785 /* Frameworks */,
 				079DE2C91CA5EEB40046B785 /* Resources */,
+				077249751CA8B4CF002FDE6F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				077249741CA8B4CF002FDE6F /* PBXTargetDependency */,
+				077249791CA8B4D5002FDE6F /* PBXTargetDependency */,
 			);
-			name = sampleapp;
+			name = "bash-org";
 			productName = sampleapp;
-			productReference = 079DE2CB1CA5EEB40046B785 /* sampleapp.app */;
+			productReference = 079DE2CB1CA5EEB40046B785 /* bash-org.app */;
 			productType = "com.apple.product-type.application";
 		};
-		079DE2DE1CA5EEB40046B785 /* sampleappTests */ = {
+		079DE2DE1CA5EEB40046B785 /* bash-orgTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 079DE2F61CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "sampleappTests" */;
+			buildConfigurationList = 079DE2F61CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "bash-orgTests" */;
 			buildPhases = (
 				079DE2DB1CA5EEB40046B785 /* Sources */,
 				079DE2DC1CA5EEB40046B785 /* Frameworks */,
@@ -158,14 +327,14 @@
 			dependencies = (
 				079DE2E11CA5EEB40046B785 /* PBXTargetDependency */,
 			);
-			name = sampleappTests;
+			name = "bash-orgTests";
 			productName = sampleappTests;
-			productReference = 079DE2DF1CA5EEB40046B785 /* sampleappTests.xctest */;
+			productReference = 079DE2DF1CA5EEB40046B785 /* bash-org.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		079DE2E91CA5EEB40046B785 /* sampleappUITests */ = {
+		079DE2E91CA5EEB40046B785 /* bash-orgUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 079DE2F91CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "sampleappUITests" */;
+			buildConfigurationList = 079DE2F91CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "bash-orgUITests" */;
 			buildPhases = (
 				079DE2E61CA5EEB40046B785 /* Sources */,
 				079DE2E71CA5EEB40046B785 /* Frameworks */,
@@ -176,9 +345,9 @@
 			dependencies = (
 				079DE2EC1CA5EEB40046B785 /* PBXTargetDependency */,
 			);
-			name = sampleappUITests;
+			name = "bash-orgUITests";
 			productName = sampleappUITests;
-			productReference = 079DE2EA1CA5EEB40046B785 /* sampleappUITests.xctest */;
+			productReference = 079DE2EA1CA5EEB40046B785 /* bash-org.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +374,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 079DE2C61CA5EEB30046B785 /* Build configuration list for PBXProject "sampleapp" */;
+			buildConfigurationList = 079DE2C61CA5EEB30046B785 /* Build configuration list for PBXProject "bash-org" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,14 +385,118 @@
 			mainGroup = 079DE2C21CA5EEB30046B785;
 			productRefGroup = 079DE2CC1CA5EEB40046B785 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0754194B1CA8A032009FE26B /* Products */;
+					ProjectRef = 0754194A1CA8A032009FE26B /* Just.xcodeproj */;
+				},
+				{
+					ProductGroup = 075419301CA89ABE009FE26B /* Products */;
+					ProjectRef = 0754192F1CA89ABE009FE26B /* Kanna.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				079DE2CA1CA5EEB40046B785 /* sampleapp */,
-				079DE2DE1CA5EEB40046B785 /* sampleappTests */,
-				079DE2E91CA5EEB40046B785 /* sampleappUITests */,
+				079DE2CA1CA5EEB40046B785 /* bash-org */,
+				079DE2DE1CA5EEB40046B785 /* bash-orgTests */,
+				079DE2E91CA5EEB40046B785 /* bash-orgUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0754193A1CA89ABF009FE26B /* Kanna.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kanna.framework;
+			remoteRef = 075419391CA89ABF009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0754193C1CA89ABF009FE26B /* Kanna.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kanna.framework;
+			remoteRef = 0754193B1CA89ABF009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0754193E1CA89ABF009FE26B /* Kanna.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kanna.framework;
+			remoteRef = 0754193D1CA89ABF009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075419401CA89ABF009FE26B /* Kanna.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kanna.framework;
+			remoteRef = 0754193F1CA89ABF009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075419421CA89ABF009FE26B /* KannaTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KannaTests.xctest;
+			remoteRef = 075419411CA89ABF009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075419441CA89ABF009FE26B /* Kanna_OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Kanna_OSX Tests.xctest";
+			remoteRef = 075419431CA89ABF009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075419461CA89ABF009FE26B /* Kanna_tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Kanna_tvOS Tests.xctest";
+			remoteRef = 075419451CA89ABF009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075419541CA8A032009FE26B /* Just.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Just.framework;
+			remoteRef = 075419531CA8A032009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075419561CA8A032009FE26B /* Just-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Just-iOSTests.xctest";
+			remoteRef = 075419551CA8A032009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075419581CA8A032009FE26B /* Just.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Just.framework;
+			remoteRef = 075419571CA8A032009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0754195A1CA8A032009FE26B /* Just-OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Just-OSXTests.xctest";
+			remoteRef = 075419591CA8A032009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0754195C1CA8A032009FE26B /* Just.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Just.framework;
+			remoteRef = 0754195B1CA8A032009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0754195E1CA8A032009FE26B /* Just-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Just-tvOSTests.xctest";
+			remoteRef = 0754195D1CA8A032009FE26B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		079DE2C91CA5EEB40046B785 /* Resources */ = {
@@ -281,14 +554,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		077249741CA8B4CF002FDE6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Just-iOS";
+			targetProxy = 077249731CA8B4CF002FDE6F /* PBXContainerItemProxy */;
+		};
+		077249791CA8B4D5002FDE6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kanna_iOS;
+			targetProxy = 077249781CA8B4D5002FDE6F /* PBXContainerItemProxy */;
+		};
 		079DE2E11CA5EEB40046B785 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 079DE2CA1CA5EEB40046B785 /* sampleapp */;
+			target = 079DE2CA1CA5EEB40046B785 /* bash-org */;
 			targetProxy = 079DE2E01CA5EEB40046B785 /* PBXContainerItemProxy */;
 		};
 		079DE2EC1CA5EEB40046B785 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 079DE2CA1CA5EEB40046B785 /* sampleapp */;
+			target = 079DE2CA1CA5EEB40046B785 /* bash-org */;
 			targetProxy = 079DE2EB1CA5EEB40046B785 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -350,6 +633,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -390,6 +674,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -402,12 +687,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = sampleapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teran.sampleapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teran.bash-org";
+				PRODUCT_NAME = "bash-org";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -417,12 +704,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = sampleapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teran.sampleapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teran.bash-org";
+				PRODUCT_NAME = "bash-org";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -435,8 +724,8 @@
 				INFOPLIST_FILE = sampleappTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teran.sampleappTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleapp.app/sampleapp";
+				PRODUCT_NAME = "bash-org";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bash-org.app/bash-org";
 			};
 			name = Debug;
 		};
@@ -447,8 +736,8 @@
 				INFOPLIST_FILE = sampleappTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teran.sampleappTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleapp.app/sampleapp";
+				PRODUCT_NAME = "bash-org";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bash-org.app/bash-org";
 			};
 			name = Release;
 		};
@@ -458,7 +747,7 @@
 				INFOPLIST_FILE = sampleappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teran.sampleappUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "bash-org";
 				TEST_TARGET_NAME = sampleapp;
 			};
 			name = Debug;
@@ -469,7 +758,7 @@
 				INFOPLIST_FILE = sampleappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teran.sampleappUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "bash-org";
 				TEST_TARGET_NAME = sampleapp;
 			};
 			name = Release;
@@ -477,7 +766,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		079DE2C61CA5EEB30046B785 /* Build configuration list for PBXProject "sampleapp" */ = {
+		079DE2C61CA5EEB30046B785 /* Build configuration list for PBXProject "bash-org" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				079DE2F11CA5EEB40046B785 /* Debug */,
@@ -486,7 +775,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		079DE2F31CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "sampleapp" */ = {
+		079DE2F31CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "bash-org" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				079DE2F41CA5EEB40046B785 /* Debug */,
@@ -495,7 +784,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		079DE2F61CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "sampleappTests" */ = {
+		079DE2F61CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "bash-orgTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				079DE2F71CA5EEB40046B785 /* Debug */,
@@ -504,7 +793,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		079DE2F91CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "sampleappUITests" */ = {
+		079DE2F91CA5EEB40046B785 /* Build configuration list for PBXNativeTarget "bash-orgUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				079DE2FA1CA5EEB40046B785 /* Debug */,
