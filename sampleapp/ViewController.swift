@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Social
 
 import Just
 import Kanna
@@ -46,9 +45,8 @@ class ViewController: UIViewController {
         
     }
     @IBAction func shareButtonPressed(sender: AnyObject) {
-        let tweetComposer = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
-        tweetComposer.setInitialText(mainTextView.text)
-        self.presentViewController(tweetComposer, animated: true, completion: nil)
+        let vc = UIActivityViewController(activityItems: [mainTextView.text], applicationActivities: nil)
+        self.presentViewController(vc, animated: true, completion: nil)
     }
 }
 
