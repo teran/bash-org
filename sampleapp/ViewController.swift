@@ -15,7 +15,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         refreshData()
+
         mainTextView.textContainer.lineBreakMode = NSLineBreakMode.ByCharWrapping
+
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: "handleTap:")
+        self.view.addGestureRecognizer(gestureRecognizer)
     }
 
     func refreshData() {
@@ -33,6 +37,10 @@ class ViewController: UIViewController {
         }
     }
     
+    func handleTap(gestureRecognizer: UIGestureRecognizer) {
+        refreshData()
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -40,10 +48,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var mainTextView: UITextView!
 
-    @IBAction func buttonPressed(sender: UIButton) {
-        refreshData()
-        
-    }
     @IBAction func shareButtonPressed(sender: AnyObject) {
         let vc = UIActivityViewController(activityItems: [mainTextView.text], applicationActivities: nil)
         self.presentViewController(vc, animated: true, completion: nil)

@@ -27,15 +27,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naf-oA-jtr">
-                                <rect key="frame" x="0.0" y="583" width="154" height="84"/>
-                                <state key="normal" title="Refresh"/>
-                                <connections>
-                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zre-EK-IHE"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLh-yb-d68">
-                                <rect key="frame" x="220" y="583" width="155" height="76"/>
+                                <rect key="frame" x="313" y="636" width="62" height="31"/>
                                 <state key="normal" title="Share"/>
                                 <connections>
                                     <action selector="shareButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hWn-Im-1JP"/>
