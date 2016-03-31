@@ -20,6 +20,7 @@ class ViewController: UIViewController {
 
         // textView settings
         mainTextView.textContainer.lineBreakMode = NSLineBreakMode.ByCharWrapping
+        mainTextView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
 
         // Gesture handlers
         let tapGesture = UITapGestureRecognizer(target: self, action: "handleTap:")
