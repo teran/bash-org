@@ -23,9 +23,9 @@ class ViewController: UIViewController {
         mainTextView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
 
         // Gesture handlers
-        let tapGesture = UITapGestureRecognizer(target: self, action: "handleTap:")
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap))
         self.view.addGestureRecognizer(tapGesture)
-        let swipeGesture = UISwipeGestureRecognizer(target: self, action: "handleSwipe:")
+        let swipeGesture = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipe))
         self.view.addGestureRecognizer(swipeGesture)
     }
 
