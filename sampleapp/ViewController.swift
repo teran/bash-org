@@ -14,12 +14,18 @@ import Kanna
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Operations on load
         refreshData()
 
+        // textView settings
         mainTextView.textContainer.lineBreakMode = NSLineBreakMode.ByCharWrapping
 
-        let gestureRecognizer = UITapGestureRecognizer(target: self, action: "handleTap:")
-        self.view.addGestureRecognizer(gestureRecognizer)
+        // Gesture handlers
+        let tapGesture = UITapGestureRecognizer(target: self, action: "handleTap:")
+        self.view.addGestureRecognizer(tapGesture)
+        let swipeGesture = UISwipeGestureRecognizer(target: self, action: "handleSwipe:")
+        self.view.addGestureRecognizer(swipeGesture)
     }
 
     func refreshData() {
@@ -37,8 +43,13 @@ class ViewController: UIViewController {
         }
     }
     
-    func handleTap(gestureRecognizer: UIGestureRecognizer) {
+    func handleTap(tapGesture: UIGestureRecognizer) {
         refreshData()
+    }
+
+    func handleSwipe(swipeGesture: UIGestureRecognizer) {
+        let vc = UIActivityViewController(activityItems: [mainTextView.text], applicationActivities: nil)
+        self.presentViewController(vc, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,10 +58,5 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var mainTextView: UITextView!
-
-    @IBAction func shareButtonPressed(sender: AnyObject) {
-        let vc = UIActivityViewController(activityItems: [mainTextView.text], applicationActivities: nil)
-        self.presentViewController(vc, animated: true, completion: nil)
-    }
 }
 

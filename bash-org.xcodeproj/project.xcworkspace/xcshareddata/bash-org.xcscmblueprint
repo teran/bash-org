@@ -1,13 +1,16 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A9C4F7FE07A4657BAB50BB58E52A36E8BFD3C806",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A9C4F7FE07A4657BAB50BB58E52A36E8BFD3C806" : 0,
     "3F00198FD7638102954E2D442697C31855C6A5BC" : 0,
     "BC949C044609264A7DE78DBBB5DCDDF5E033DADA" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3447BDEC-CC74-4E26-A3F1-5A7DFCD3FFB8",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A9C4F7FE07A4657BAB50BB58E52A36E8BFD3C806" : "bash-org\/",
     "3F00198FD7638102954E2D442697C31855C6A5BC" : "bash-org\/Kanna\/",
     "BC949C044609264A7DE78DBBB5DCDDF5E033DADA" : "bash-org\/Just\/"
   },
@@ -19,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tid-kijyun\/Kanna.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3F00198FD7638102954E2D442697C31855C6A5BC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/teran\/bash-org.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A9C4F7FE07A4657BAB50BB58E52A36E8BFD3C806"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JustHTTP\/Just.git",
